@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --dark: #111111;
+  --dark-alternate: #1b1918;
+  --primary: #FF5F3F;
+  --primary-light: #f4ebeb;
+}
+
+@theme inline {
+  --color-dark: var(--dark);
+  --color-dark-alternate: var(--dark-alternate);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+}
+
+html {
+  overflow-x: hidden ;
+}
+
+/* APPLY FONT SECARA BENAR */
+body {
+  font-family: var(--font-poppins);
+}
