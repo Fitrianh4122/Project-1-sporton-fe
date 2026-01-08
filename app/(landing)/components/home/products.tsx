@@ -55,7 +55,7 @@ const ProductsSection = () => {
           <Link href="#" key={index} className="p-1.5 bg-white hover:drop-shadow-xl duration-300">
             <div className="bg-primary-light aspect-square w-full flex justify-center items-center relative">
               <Image
-                src={`/image/products/${product.imgUrl}`}
+                src={`/image/Products/${product.imgUrl}`}
                 alt={product.name}
                 width={300}
                 height={300}
